@@ -1,7 +1,42 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
-data/raw/*.zip
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python test/cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment
+.env
+.env.*
+
+# Large generated/intermediate data
+data/processed/merged_store_dept_week.csv
+
+# Raw dataset files
 data/raw/*.csv
