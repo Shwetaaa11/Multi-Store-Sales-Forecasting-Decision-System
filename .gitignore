@@ -38,6 +38,5 @@ htmlcov/
 # Large generated/intermediate data
 data/processed/merged_store_dept_week.csv
 
-# Raw dataset files
-data/raw/*.csv
+# Raw dataset archives
 data/raw/*.zip
