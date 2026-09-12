@@ -40,3 +40,4 @@ data/processed/merged_store_dept_week.csv
 
 # Raw dataset files
 data/raw/*.csv
+data/raw/*.zip
